@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+#export DH_VERBOSE=1
+
+include /usr/share/javahelper/java-vars.mk
+
+export CLASSPATH=/usr/share/java/junit.jar
+
+%:
+	dh $@ --with javahelper,maven-repo-helper
+
+override_dh_install:
+	mh_installpoms -plibnoggit-java
+	mh_installjar -plibnoggit-java pom.xml noggit.jar
+
+get-orig-source:
+	dh_testdir
+	debian/orig-tar.sh

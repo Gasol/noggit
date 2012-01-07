@@ -1,0 +1,13 @@
+noggit for Debian
+-----------------
+
+The upstream doesn't supply tar.gz package. So, the orig-tar.sh script is used
+to automate building the tarball.
+
+For step-by-step information on how the orig.tar.sh is obtained,
+please look at the orig-tar.sh present in this directory.
+
+ -- Gasol Wu <gasol.wu@gmail.com>  Sat, 07 Jan 2012 22:03:37 +0800
+
+
+

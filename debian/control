@@ -1,0 +1,34 @@
+Source: noggit
+Priority: extra
+Maintainer: Gasol Wu <gasol.wu@gmail.com>
+Build-Depends: debhelper (>= 8.0.0),
+ default-jdk (>= 1.5),
+ javahelper (>= 0.32),
+ junit (>= 3.8.1)
+Build-Depends-Indep: maven-repo-helper (>= 1.5.2)
+Standards-Version: 3.9.2
+Section: java
+Homepage: http://labs.apache.org/
+Vcs-Svn: http://svn.apache.org/repos/asf/labs/noggit/
+
+Package: libnoggit-java
+Section: java
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Description: Fast streaming JSON parser for Java
+ Noggit is a fast streaming JSON parser for Java.
+ .
+ For more about JSON, see the following:
+   http://www.json.org/
+   http://www.ietf.org/rfc/rfc4627.txt
+
+Package: libnoggit-java-doc
+Section: doc
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Description: Fast streaming JSON parser for Java (Documentation)
+ Noggit is a fast streaming JSON parser for Java.
+ .
+ For more about JSON, see the following:
+   http://www.json.org/
+   http://www.ietf.org/rfc/rfc4627.txt
