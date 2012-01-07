@@ -1,0 +1,25 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="http://usefulinc.com/ns/doap#"     xmlns:labs="http://labs.apache.org/doap-ext/1.0#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:admin="http://webns.net/mvcb/">
+ <name>Apache Noggit</name>
+ <shortname>Noggit</shortname>
+ <shortdesc>JSON Streaming Parser</shortdesc>
+ <description>The fast JSON streaming parser and serializer for Java, conforming to the JSON IETF specification.</description>
+ <homepage rdf:resource="http://labs.apache.org/noggit/" />
+ <bug-database rdf:resource="http://labs.apache.org/jira/" />
+ <programming-language>java</programming-language>
+ <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
+ <labs:status>active</labs:status>
+ <maintainer>
+  <foaf:Person>
+     <foaf:name>Yonik Seeley</foaf:name>
+     <foaf:homepage rdf:resource="http://people.apache.org/~yonik/"/>
+     <foaf:mbox_sha1sum>e03061134f6070a0f4dbe466701f47066feafa6f</foaf:mbox_sha1sum>
+  </foaf:Person>
+ </maintainer>
+ <repository>
+   <SVNRepository>
+     <location rdf:resource="http://svn.apache.org/repos/asf/labs/noggit/"/>
+   </SVNRepository>
+ </repository>
+</Project>
+
+
